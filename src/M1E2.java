@@ -16,10 +16,9 @@ public class M1E2  {
         clavier.close();
 
         // 2. Afficher l'heure statique
-        int totalSecondes = (heures * 3600) + (minutes * 60) + secondes;
-
-        // 3. Affichage du résultat
         System.out.println("Il est " + heures + " h " + minutes + " min " + secondes + " s.");
-        System.out.println("Il s'est écoulé " + totalSecondes + " secondes depuis minuit.");
+
+        // 3. Afficher le nombre de secondes écoulées depuis minuit
+        int nbSecondesDepuisMinuit = (heures * 60)
     }
 }
