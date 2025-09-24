@@ -16,5 +16,17 @@ public class M1E5  {
         // Demande la saisie de l'utilisateur
         System.out.println("Je pense à un nombre entre 1 et 100 inclus. Devinez lequel.");
         System.out.print("Entrez un nombre : ");
+
+        // Lecture de la proposition de l'utilisateur
+        int proposition = clavier.nextInt();
+
+        // Fermeture de la ressource clavier
+        clavier.close();
+
+        // Afficher la proposition de l'utilisateur
+        System.out.println("Vous proposez : " + proposition);
+
+        // 
+
     }
 }
