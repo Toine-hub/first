@@ -23,10 +23,17 @@ public class M1E5  {
         // Fermeture de la ressource clavier
         clavier.close();
 
-        // Afficher la proposition de l'utilisateur
+        // Affiche la proposition de l'utilisateur
         System.out.println("Vous proposez : " + proposition);
 
-        // 
+        // Affiche le nombre mystère
+        System.out.println("Le nombre auquel je pensais était : " + nombreMystere);
+
+        // Calcul de la différence (valeur absolue pour éviter les négatifs)
+        int difference = Math.abs(nombreMystere - proposition);
+
+        // Affiche la difference entre la proposition et la bonne réponse
+        System.out.println("Vous étiez à " + difference + " de la bonne réponse.");
 
     }
 }
