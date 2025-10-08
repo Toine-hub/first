@@ -22,7 +22,7 @@ public class cafecreme {
                 System.out.print("pièces de 20 cents ? ");
                 int nb20Cents = clavier.nextInt();
 
-                System.out.print(" pièces de 50 cents ? ");
+                System.out.print("5pièces de 50 cents ? ");
                 int nb50Cents = clavier.nextInt();
 
                 // Fermeture ressource clavier
