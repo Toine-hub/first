@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class M1E2  {
+public class M1E2 {
     public static void main(String[] args) {
 
         // Initialisation du Scanner pour le clavier
         Scanner clavier = new Scanner(System.in);
-        
+
         // 1. Récupérer les heures, minutes, secondes de l'utilisateur
         System.out.println("Entrez les heures : ");
         int heures = clavier.nextInt();
@@ -19,6 +19,6 @@ public class M1E2  {
         System.out.println("Il est " + heures + " h " + minutes + " min " + secondes + " s.");
 
         // 3. Afficher le nombre de secondes écoulées depuis minuit
-        int nbSecondesDepuisMinuit = (heures * 60)
+        int nbSecondesDepuisMinuit = (heures * 60);
     }
 }

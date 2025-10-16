@@ -10,6 +10,9 @@ public class M2E1 {
         System.out.print("Entrez un nombre : ");
         int nombre = clavier.nextInt();
 
+        // Fermeture ressource clavier
+        clavier.close();
+
         if (nombre % 2 == 0) {
             System.out.println(nombre + " est pair.");
         } else {
